@@ -4,7 +4,7 @@
 
 // Write the function to find the increaseNumber obtained.
 function increaseNumber(initialValue, finalValue) {
-     //your code here
-  }
+  return Math.abs(finalValue - initialValue)
+}
 
 //Use SpecRunner to check the Test Cases.

@@ -5,8 +5,8 @@
 
 
 // Write the function to find the hero obtained.
-function hero(bullets, dragons){
-     //your code here
-  }
+function hero(bullets, dragons) {
+  return (dragons * 2 <= bullets)
+}
 
 //Use SpecRunner to check the Test Cases.
